@@ -1,0 +1,468 @@
+ 
+ 
+<script language="JavaScript">
+<!--
+function testCategoryID(myForm, formName)
+{
+	if (formName != "Price")
+		document.PriceCat.CategoryID.options[0].selected = 1;
+	if (formName != "Store")
+		document.StoreCat.CategoryID.options[0].selected = 1;
+	if (formName != "Lifestyle")
+		document.LifeCat.CategoryID.options[0].selected = 1;
+	if (formName != "Recipient")
+		document.RecipCat.CategoryID.options[0].selected = 1;
+	
+	for (i=0; i < myForm.CategoryID.length; i++)
+    	{
+		if (myForm.CategoryID.options[i].selected)
+			if (myForm.CategoryID.options[i].value == 0)
+				{
+				alert("Please choose a " + formName + " category.");
+		       	return false;
+				}
+			else
+				return true;
+		}
+		alert("Please choose a category");
+       	return false;
+}
+// -->
+</script>
+
+
+
+
+<html>
+<head>
+<title>
+	Galleria Roseville Promenade Premier Gift Finder 
+</title>
+<META NAME="description" CONTENT="Galleria at Roseville is the place Placer County shoppers can find the very best in convenient shopping, in person or on the Web.">
+<META NAME="keywords" CONTENT="Roseville, Sacramento, Rocklin, shopping, shopping mall, shopping center, galleriaroseville, rosevillegalleria,  Galleria Mall, Roseville Mall, fashion, apparel, accessories, women's apparel, women's shoes, beauty, personal care, books, cards, stationery, children's apparel, optical, music, records, nutrition, department stores, jewelry, home furnishings, men's apparel, men's shoes, toys, sports, restaurants">
+
+<script language="JavaScript">
+<!--hide this script from non-javascript-enabled browsers
+
+
+function popup(){
+	hWind = window.open('/go/blank.cfm','remote','width=610,height=525,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1');
+	hWind.focus();
+	return 0;
+	}
+
+function win() {
+  msg = window.open("http://www.galleriaroseville.com/info/rend/rend1.htm","","width=500,height=420,status=no,toolbar=no,menubar=no,scrollbars=no");
+}
+
+function win1() {
+  msg = window.open("progress/index.htm","","width=700,height=400,status=no,toolbar=no,menubar=no");
+}
+
+function win2() {
+  msg = window.open("http://www.galleriaroseville.com/info/rend/rend1.htm","","width=500,height=410,status=no,toolbar=no,menubar=no,scrollbars=no");
+}
+
+function win3() {
+  msg = window.open("/progress/index.htm","","width=700,height=400,status=no,toolbar=no,menubar=no");
+}
+
+function win4() {
+  msg = window.open("news/press/111899.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win9() {
+  msg = window.open("/info/flash.htm","","width=450,height=350,status=no,toolbar=no,menubar=no");
+}
+
+function win10() {
+  msg = window.open("/info/flash.htm","","width=450,height=350,status=no,toolbar=no,menubar=no");
+}
+
+function win11() {
+  msg = window.open("/info/specform.htm","","width=500,height=530,status=no,toolbar=no,menubar=no");
+}
+
+function win12() {
+  msg = window.open("/info/news/press/031400.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win13() {
+  msg = window.open("/info/news/press/050400.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win14() {
+  msg = window.open("/info/news/press/060100.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win15() {
+  msg = window.open("/info/news/press/071100.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win16() {
+  msg = window.open("/info/news/press/071800.htm","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function win17() {
+  msg = window.open("/go/PRdisplay.cfm?&MallID=145&FPURLID=133","","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+
+function prwin(prID) {
+  msg = window.open(prID,"","width=650,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+/* Functions that swaps images. */
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+/* Functions that handle preload. */
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+
+
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+
+
+var preloadFlag = false;
+
+function preloadImages() {
+	if (document.images) {
+		promenadeBT_over = newImage("/mimages/promenadeBT-over.gif");
+		EventsEnterBT_over = newImage("/mimages/EventsEnterBT-over.gif");
+		DirectoryHoursBT_over = newImage("/mimages/DirectoryHoursBT-over.gif");
+		ChefSpecBT_over = newImage("/mimages/ChefSpecBT-over.gif");
+		NewsletterBT_over = newImage("/mimages/NewsletterBT-over.gif");
+		VirtualTourBT_over = newImage("/mimages/VirtualTourBT-over.gif");
+		
+		preloadFlag = true;
+	}
+}
+
+// stop hiding -->
+</script>
+
+
+<script LANGUAGE=JAVASCRIPT TYPE="text/javascript" >
+<!--
+
+function _CF_onError(form_object, input_object, object_value, error_message)
+    {
+	alert(error_message);
+       	return false;	
+    }
+
+
+function _CF_hasValue(obj, obj_type)
+    {
+    if (obj_type == "TEXT" || obj_type == "PASSWORD")
+	{
+    	if (obj.value.length == 0) 
+      		return false;
+    	else 
+      		return true;
+    	}
+    else if (obj_type == "SELECT")
+	{
+        for (i=0; i < obj.length; i++)
+	    	{
+		if (obj.options[i].selected)
+			return true;
+		}
+
+       	return false;	
+	}
+    else if (obj_type == "SINGLE_VALUE_RADIO" || obj_type == "SINGLE_VALUE_CHECKBOX")
+	{
+
+		if (obj.checked)
+			return true;
+		else
+       		return false;	
+	}
+    else if (obj_type == "RADIO" || obj_type == "CHECKBOX")
+	{
+
+        for (i=0; i < obj.length; i++)
+	    	{
+		if (obj[i].checked)
+			return true;
+		}
+
+       	return false;	
+	}
+	}
+
+function  _CF_checkKeyForm(_CF_this)
+    {
+    if  (!_CF_hasValue(_CF_this.keyword, "TEXT" )) 
+        {
+        if  (!_CF_onError(_CF_this, _CF_this.keyword, _CF_this.keyword.value, "You must enter a search term."))
+            {
+            return false; 
+            }
+        }
+
+    return true;
+    }
+
+//-->
+</script>
+</head>
+<body bgcolor="#e61952" onLoad="MM_preloadImages('/mimages/home2_03_f2.gif','/mimages/home2_05_f2.gif','/mimages/home2_07_f2.gif','/mimages/home2_09_f2.gif','/mimages/home2_16_f2.gif','/mimages/home2_18_f2.gif','/mimages/home2_20_f2.gif','/mimages/home2_22_f2.gif','/mimages/home2_24_f2.gif','/mimages/home2_26_f2.gif','/mimages/home2_28_f2.gif'); preloadImages(); return true" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<TABLE cellpadding="0" cellspacing="0" border="0" width="550">
+<TR><TD><a href="http://www.galleriaroseville.com/info/merchant/tenant.cfm"><img name="home2_01" src="/mimages/home2_01.gif" width="756" height="82" border="0"></a></TD></TR>
+<TR><TD>
+	<TABLE cellpadding="0" cellspacing="0" border="0">
+	<TR>
+		<TD><img name="home2_02" src="/mimages/home2_02.gif" width="113" height="26" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_03','','/mimages/home2_03_f2.gif',1)" ><img name="home2_03" src="/mimages/home2_03.gif" width="42" height="10" border="0"></a><BR><img name="home2_11" src="/mimages/home2_11.gif" width="42" height="16" border="0"></TD>
+		<TD><img name="home2_04" src="/mimages/home2_04.gif" width="73" height="26" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com/go/GiftFinder.cfm?MallID=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_05','','/mimages/home2_05_f2.gif',1)" ><img name="home2_05" src="/mimages/home2_05.gif" width="52" height="11" border="0"></a><BR><img name="home2_12" src="/mimages/home2_12.gif" width="52" height="15" border="0"></TD>
+		<TD><img name="home2_06" src="/mimages/home2_06.gif" width="73" height="26" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com/info/galleria.cfm" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_07','','/mimages/home2_07_f2.gif',1)" ><img name="home2_07" src="/mimages/home2_07.gif" width="60" height="11" border="0"></a><BR><img name="home2_13" src="/mimages/home2_13.gif" width="60" height="15" border="0"></TD>
+		<TD><img name="home2_08" src="/mimages/home2_08.gif" width="74" height="26" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com/info/help.cfm" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_09','','/mimages/home2_09_f2.gif',1)" ><img name="home2_09" src="/mimages/home2_09.gif" width="62" height="11" border="0"></a><BR><img name="home2_14" src="/mimages/home2_14.gif" width="62" height="15" border="0"></TD>
+		<TD><a href="http://promenade.mallfinder.com" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_10_01','','/mimages/home2_10_01-over.gif',1)" ><img name="home2_10_01" src="/mimages/home2_10_01.gif" border="0"></a></TD>
+	</TR>
+	</TABLE>
+</TD></TR>
+<TR><TD>
+	<TABLE CELLPADDING="0" cellspacing="0" border="0">
+	
+	<TR>
+		<TD><img name="home2_15" src="/mimages/home2_15.gif" width="72" height="57" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com/go/malldir.cfm?MallID=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_16','','/mimages/home2_16_f2.gif',1)" ><img name="home2_16" src="/mimages/home2_16.gif" width="47" height="57" border="0"></a></TD>
+		<TD><img name="home2_17" src="/mimages/home2_17.gif" width="34" height="57" border="0"></TD>
+		<TD><a href="http://www.galleriaroseville.com/go/hours.cfm?mallid=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_18','','/mimages/home2_18_f2.gif',1)" ><img name="home2_18" src="/mimages/home2_18.gif" width="37" height="57" border="0"></a></TD>
+		<td><img name="home2_19" src="/mimages/home2_19.gif" width="31" height="57" border="0"></td>
+		<td><a href="http://www.galleriaroseville.com/info/directions.cfm" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_20','','/mimages/home2_20_f2.gif',1)" ><img name="home2_20" src="/mimages/home2_20.gif" width="52" height="57" border="0"></a></td>
+		<td><img name="home2_21" src="/mimages/home2_21.gif" width="32" height="57" border="0"></td>
+		<td><a href="http://www.galleriaroseville.com/go/PrNav.cfm?MallID=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_22','','/mimages/home2_22_f2.gif',1)" ><img name="home2_22" src="/mimages/home2_22.gif" width="37" height="57" border="0"></a></td>
+		<td><img name="home2_23" src="/mimages/home2_23.gif" width="33" height="57" border="0"></td>
+		<td><a href="http://www.galleriaroseville.com/go/events.cfm?mallid=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_24','','/mimages/home2_24_f2.gif',1)" ><img name="home2_24" src="/mimages/home2_24.gif" width="47" height="57" border="0"></a></td>
+		<td><img name="home2_25" src="/mimages/home2_25.gif" width="35" height="57" border="0"></td>
+		<td><a href="http://www.galleriaroseville.com/go/GiftFinder.cfm?MallID=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_26','','/mimages/home2_26_f2.gif',1)" ><img name="home2_26" src="/mimages/home2_26.gif" width="37" height="57" border="0"></a></td>
+		<td><img name="home2_27" src="/mimages/home2_27.gif" width="29" height="57" border="0"></td>
+		<td><a href="http://www.galleriaroseville.com/go/jobs/jobresult.cfm?JobStore=0&MallID=145" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('home2_28','','/mimages/home2_28_f2.gif',1)" ><img name="home2_28" src="/mimages/home2_28.gif" width="65" height="57" border="0"></a></td>
+		<td><img name="home2_29" src="/mimages/home2_29.gif" width="14" height="57" border="0"><img name="home2_29" src="/mimages/home2_29.gif" width="5" height="57" border="0"></td>
+		<TD bgcolor="ffffff" width="149"><img src="/mimages/space.gif" width="149" height="14" ></TD>
+	</TR>
+	
+	</TABLE>
+</TD></TR>
+<TR><TD valign="top">
+	<TABLE cellpadding="0" cellspacing="0" border="0" width="756">
+	<TR>
+		<td background="/mimages/home2_40.gif" width="10" valign="top"><img name="home2_33" src="/mimages/home2_33.gif" width="51" height="309" border="0"></td>
+		<TD bgcolor="#FFCC66" valign="top">
+			<TABLE cellpadding="0" cellspacing="0" valign="top" border="0" align="center">
+			<TR><TD valign="top">
+
+
+<img src="/mimages/space.gif" width="1" height="20" border="0"><BR><IMG SRC="/mimages/page_gift1.gif" ALT="" BORDER="0">
+
+			
+				
+				
+				
+				
+			
+		<!-- Error in RandomImage: Directory G:\InternetDev\pcmenu\urban\\Mall-promenade\mimages\mfimages -->
+<table border="0" cellpadding="0" cellspacing="2" width="389">
+<TR><TD>&nbsp;</TD></TR>
+<TR>
+<FORM ACTION="giftresults.cfm" METHOD="POST" Name="StoreCat" onSubmit="return testCategoryID(this, 'Store')">
+<INPUT TYPE="hidden" name="MallID" value="541">
+<TD COLSPAN="2"><IMG SRC="/mimages/searchcategory.gif" ></td>
+	<td valign="top" width="169" rowspan="8" align="center">
+		
+		
+		</td></TR>
+
+<TR><TD ALIGN="RIGHT"><SELECT NAME="CategoryID" SIZE="1">
+<OPTION VALUE="0">Any Store Category
+
+</SELECT></td>
+<TD><input type="image" src="/mimages/giftfindergoBT.gif" border="0"></td></FORM></tr><TR><FORM ACTION="giftresults.cfm" METHOD="POST" Name="RecipCat" onSubmit="return testCategoryID(this, 'Recipient')"><INPUT TYPE="hidden" name="MallID" value="541">
+<TD COLSPAN="2"><IMG SRC="/mimages/searchrecipient.gif"></td></TR><TR><TD ALIGN="RIGHT">
+<SELECT NAME="CategoryID">
+<OPTION VALUE="0">Any Recipient
+<OPTION VALUE="86">Significant Her
+<OPTION VALUE="87">Significant Him
+<OPTION VALUE="85">Parents
+<OPTION VALUE="84">Other Family
+<OPTION VALUE="83">Office Gifts
+<OPTION VALUE="82">Lifelong Friends
+<OPTION VALUE="81">Grandparents
+<OPTION VALUE="51">Children 2-4
+<OPTION VALUE="52">Children 5-7
+<OPTION VALUE="53">Children 8-10
+<OPTION VALUE="54">Children 11-13
+<OPTION VALUE="78">Young Teens 14-16
+<OPTION VALUE="79">College Teens 17-19</OPTION>  
+</SELECT></td>
+<TD><input type="image" src="/mimages/giftfindergoBT.gif" border="0"></td></FORM></tr><TR>
+<FORM ACTION="giftresults.cfm" METHOD="POST" Name="LifeCat" onSubmit="return testCategoryID(this, 'Lifestyle')">
+<INPUT TYPE="hidden" name="MallID" value="541">
+<TD COLSPAN="2"><IMG SRC="/mimages/searchsubject.gif"></td></TR><TR>
+<TD ALIGN="RIGHT">
+<SELECT NAME="CategoryID" SIZE="1">
+<OPTION VALUE="0">Any Lifestyle
+
+</SELECT>
+</td><TD><input type="image" src="/mimages/giftfindergoBT.gif" border="0"></td></FORM></tr><TR>
+<FORM ACTION="giftresults.cfm" METHOD="POST" Name="PriceCat" onSubmit="return testCategoryID(this, 'Price')">
+<INPUT TYPE="hidden" name="MallID" value="541">
+<TD COLSPAN="2"><IMG SRC="/mimages/searchprice.gif"></td></TR><TR><TD ALIGN="RIGHT"><SELECT NAME="CategoryID" SIZE="1">
+<OPTION VALUE="0">Any Category
+
+</SELECT>
+</td><TD><input type="image" src="/mimages/giftfindergoBT.gif" border="0"></td></FORM></tr><TR><TD COLSPAN="3"><IMG SRC="/dimages/index_42.gif"></td></tr>
+<tr><td colspan="2">
+<IMG border=0 src="/mimages/searchkeywords.gif" ></td><TD></td></tr>
+<FORM NAME="KeyForm" ACTION="/go/giftresults.cfm" METHOD=POST onSubmit="return _CF_checkKeyForm(this)">
+<INPUT TYPE="hidden" name="MallID" value="541">
+<tr height="21"><td height="21" align="middle"><INPUT TYPE="Text" NAME="keyword" SIZE="19"></td>
+<td ALIGN="right"><input type="image" src="/mimages/giftfindergoBT.gif" border="0"></td><TD></td></tr></FORM>
+<TR><TD>&nbsp;</TD></TR>
+<TR><TD>&nbsp;</TD></TR>
+</table>
+
+			</TD></TR>
+			</TABLE>
+		</TD>
+		<td bgcolor="#FFFFFF" width="149" valign="top" ALIGN="center">
+
+
+
+
+
+
+
+
+
+	<TABLE cellpadding="0" cellspacing="0" align="center" width="149">
+			
+			<TR><TD align="center"><P><A target=top 
+href="http://www.thegiftcertificatecompany.com/template.asp?page=view&ID=0223"><FONT 
+face="arial, helvetica" size=3><B><IMG alt="" src="/mimages/dir_onlinegiftcert1.gif" 
+border=0></B></A></FONT> </P></TD></TR>
+			<TR><TD><hr noshade color="3044B5"></TD></TR>
+			
+			</FORM>
+			
+			<TR><TD><hr noshade color="3044B5"></TD></TR>
+		
+			
+			
+			
+			
+			
+	  
+	  
+	  
+	
+
+	  <TR><TD><p align="center"><font size="1" face="Arial, Helvetica, sans-serif"><a href="/info/jazz.htm"  target="remote" onClick="popup(); return true"><img src="/mimages/SummerJazzBanner.gif" width="110" height="51" border="0"></a></font></p></TD></TR><BR>
+	<TR><TD align="center"><a href="/info/jazz.htm" target="remote" onClick="popup(); return true"><font size="1" face="Arial, Helvetica, sans-serif">Galleria at Roseville's Summer Jazz Party returns for 2002. Click here for more information.</font></a></TD></TR>
+	  
+	  <TR><TD><hr noshade color="3044B5"></TD></TR>
+	  
+	 <TR><TD><p align="center"><font size="1" face="Arial, Helvetica, sans-serif"><a href="http://promenade.mallfinder.com/info/virtualtour.cfm"><img src="/mimages/VirtualTour_small.jpg" width="110" height="74" border="0"></a>  </font></p></TD></TR><BR>
+	<TR><TD align="center"><font size="1" face="Arial, Helvetica, sans-serif">Take a video tour of the Outdoor Promenade.</font></TD></TR>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+			
+	</TABLE>
+
+	
+	
+
+
+
+
+		</td>
+	</TR>
+	</TABLE>
+</TD>
+</TR>
+<TR><TD>&nbsp;</TD></TR>
+<tr><td>
+	<TABLE cellpadding="0" cellspacing="0">
+	<TR><td width="59" background="/mimages/home2_40.gif" valign="top"><img name="home2_40" src="/mimages/home2_40.gif" width="51" height="103" border="0"></td>
+		<td bgcolor="#FFCC66" width="549" valign="middle" align="center"><p><img src="/mimages/home2_47.gif" width="551" height="3"><br>
+		
+		
+		
+	<font face="Arial, Helvetica, sans-serif" size="2">
+	<font color="006666"><a href="http://www.galleriaroseville.com">
+	<font color="000000">home</font></a>
+	<font color="000000"> 
+		| <a href="http://www.galleriaroseville.com/go/GiftFinder.cfm?MallID=145">search</a> 
+		| <a href="http://www.galleriaroseville.com/info/galleria.cfm">galleria</a> 
+		| <a href="http://www.galleriaroseville.com/info/help.cfm">help</a></font></font></font></p>
+    <p align="center">
+	<font face="Arial, Helvetica, sans-serif" size="2" color="000000">
+		<a href="http://www.galleriaroseville.com/go/malldir.cfm?MallID=145">directory</a> 
+    | <a href="http://www.galleriaroseville.com/go/hours.cfm?mallid=145">hours</a> | <a href="http://www.galleriaroseville.com/info/directions.cfm">directions</a> 
+		| <a href="http://www.galleriaroseville.com/go/PrNav.cfm?MallID=145">news</a> | <a href="http://www.galleriaroseville.com/go/events.cfm?mallid=145">calendar</a> 
+    | <a href="http://www.galleriaroseville.com/go/GiftFinder.cfm?MallID=145">gifts</a> | <a href="http://www.galleriaroseville.com/go/jobs/jobresult.cfm?JobStore=0&MallID=145">employment</a></font></p>
+    <p align="center">
+	<font face="Arial, Helvetica, sans-serif" size="2" color="000000">
+		<font size="2" face="Arial, Helvetica, sans-serif">
+		<a href="http://www.galleriaroseville.com/info/copyright.cfm">copyright &amp; disclaimer</a> © 2000, One80 Design 
+		</font>
+	</font>
+	<font face="Arial, Helvetica, sans-serif" size="2">
+	| <font color="000000">www.one80design.com</font></font></p>
+</td>
+		<td width="10" background="/mimages/home2_42.gif" valign="top"><img name="home2_42" src="/mimages/home2_42.gif" width="11" height="103" border="0"></td>
+	  <td bgcolor="#FFFFFF" width="136" valign="middle" align="center"><p><img src="/mimages/home2_48.gif" width="136" height="3"><br><a href="http://www.westfield.com" target="remote"><img src="http://images.mallfinder.com/images/company/125x56/westfield.gif" width="125" height="56" border="0"></a></p></td>
+		<td width="12" bgcolor="#FFFFFF" valign="top"><img name="home2_44" src="/mimages/home2_44.gif" width="7" height="103" border="0"></td>
+	</TR>
+	</TABLE>
+</TD></TR>
+</TABLE>
+
+</body>
+</html>
