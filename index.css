@@ -1,0 +1,168 @@
+.cta18-wrapper {
+  display: contents;
+}
+ 
+.cta18-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta18-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta18-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta18-container2 {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.cta18-content {
+  gap: 24px;
+  width: 616px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta18-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+}
+ 
+.home-fragment1 {
+  display: contents;
+}
+ 
+.home-text1 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment2 {
+  display: contents;
+}
+ 
+.home-text2 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment3 {
+  display: contents;
+}
+ 
+.home-text3 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment4 {
+  display: contents;
+}
+ 
+.home-text4 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.cta18root-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  background-image: radial-gradient(circle at center, rgb(0, 255, 17) 77.00%,rgb(0, 0, 0) 100.00%);
+}
+ 
+@media(max-width: 991px) {
+  .cta18-container2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .cta18-max-width {
+    gap: var(--dl-layout-space-twounits);
+  }
+  .cta18-content {
+    width: auto;
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, rgb(100, 0, 255) 31.00%,rgb(255, 0, 0) 100.00%);
+}
+ 
+.home-fragment1 {
+  display: contents;
+}
+ 
+.home-text1 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment2 {
+  display: contents;
+}
+ 
+.home-text2 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment3 {
+  display: contents;
+}
+ 
+.home-text3 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-fragment4 {
+  display: contents;
+}
+ 
+.home-text4 {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+}
+ 
+.home-image {
+  width: 1068px;
+  height: 601px;
+  object-fit: cover;
+}
