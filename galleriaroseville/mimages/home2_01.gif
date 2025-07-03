@@ -1,0 +1,806 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>galleriaroseville.com &#8212; Find What You Need</title>
+<meta name="description" content="Shop Around: Online Shopping, Catalog, Coupons, and Retail Information & Resources" />
+<meta name="keywords" content="Shopping, catalog, coupons, online shopping mall, compare prices, online shopping catalog, shopping directory, cheap online shopping, home shopping network, bargain shopping, discount, save, coupons, price comparison, compare prices, secure, mall, shops, stores, commerce, spend, shop safe, beauty, fashion, electronics, cooking, dining, sports, health and fitness, jewelry, top brand names, babies, kids, books, cars, clothing, accessories, computers, laptops, desktops, PDAs, electronics, flowers, gifts, home, garden, appliances, furniture, jewelry, music, toys, travel, entertainment, freebies, deals, coupon discounts, clearance sales, shopping discounts and coupons, promo codes, shopping deals, online bargains, free coupons, wholesale products, daily specials, deal of the day, bargains and discounts, discount shopping, discount codes, back to school, online coupons, bargains, rebates, Internet promotions, discount coupons, grocery, free shipping, virtual shopping mall, cyber mall, online catalog shopping" />
+<link rel="stylesheet" href="/styles/styles_d2r.css" />
+
+
+<style type="text/css">
+body {background:#fff;}
+a {color:#4a634c;}
+#main {border:1px solid #4a634c;}
+#content {border-top:1px solid #4a634c;border-bottom:1px solid #4a634c;background:#fff6e9}
+#topNav {background:#4a634c;}
+.topNavLink a {background:#4a634c;}
+.topNavLink a:hover {color:#4a634c;}
+#bottomNav {background:#c37c14;}
+.bottomNavLink a {background:#c37c14;}
+.bottomNavLink a:hover {color:#c37c14;}
+.rightAd {border:1px solid #4a634c;}
+.comp {background:#c37c14;}
+.compBox {border-left:1px solid #c37c14;border-bottom:6px solid #c37c14;border-right:1px solid #c37c14;}
+.compImgSrc {border:1px solid #c37c14;}
+span.rtop, span.rbottom{background:#fff6e9;}
+span.rtop span, span.rbottom span{background:#c37c14;}
+#contentBox {border:1px solid #c37c14;}
+#searchBox2 {background:#4a634c;border:1px solid #4a634c;}
+#searchText a {background:#c37c14;}
+#searchLinks {border-left:1px solid #4a634c;border-right:1px solid #4a634c;background:#fff6e9}
+#searchBoxBottom {background:#4a634c;border:1px solid #4a634c;}
+.ad {border:1px solid #4a634c;}
+.lineVert {background:#4a634c;}
+#portals {color:#666;}
+#portals a {color:#666;}
+#footer {color:#666;}
+a.footerLink {color:#666;}
+a.footerLink:hover {color:#666;}
+</style>
+
+
+<script>
+// Make this your homepage only works on Windows IE
+var detect = navigator.userAgent.toLowerCase();
+var OS,browser,version,total,thestring;
+
+function checkIt(string) {
+	place = detect.indexOf(string) + 1;
+	thestring = string;
+	return place;
+}
+
+function addFooterLinks() { // adds links to make homepage and bookmark page
+	if (checkIt('msie') && checkIt('win')) {
+		document.write("&nbsp;&nbsp;|&nbsp;&nbsp;<span class=\"footerLink\" style=\"text-decoration:none;cursor:pointer\" onClick=\"this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.galleriaroseville.com')\">Make This My Homepage</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a class=\"footerLink\" href=\"javascript:void window.external.AddFavorite('http://www.galleriaroseville.com', 'galleriaroseville.com')\">Bookmark This Page</a>");
+	}	
+}
+
+function addD2RLinks() { // adds links to make homepage and bookmark page
+	if (checkIt('msie') && checkIt('win')) {
+		document.write("<span class=\"topLeftLinks\" onClick=\"this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.galleriaroseville.com')\">Make This My Homepage</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"javascript:void window.external.AddFavorite('http://www.galleriaroseville.com', 'galleriaroseville.com')\">Bookmark This Page</a>");
+	}	
+}
+</script>
+</head>
+
+<body>
+
+
+
+
+
+<script language="javascript" src="/cookies.js"></script>
+
+
+
+<script>
+    <!--
+    // record pageview
+    var img_p = new Image;
+    img_p.src = "/servlet/ImageTracker?type=pageview&page=/shoparound/index_d2r.jsp&domain=galleriaroseville.com&timestamp=1140241465475";
+
+
+        if (getCookie("hasSession") != "true")
+        {
+	        setCookie("hasSession", "true");
+
+
+
+	        var img_v = new Image;
+	        img_v.src = "/servlet/ImageTracker?referrer=&provider=overture&domain=galleriaroseville.com&timestamp=1140241465475";
+        } // if hasSession = true
+
+
+
+    // control popunders
+    var extraParams = "&od=galleriaroseville.com&op=125&popunder=true";  //for frameless debugging
+    var need_open1 = 0;
+    var need_open2 = 0;
+    var need_openbd = 0;
+
+    function openSeeqPopunders(method)
+    {
+        if (need_open1)
+        {
+            need_open1 = 0;
+            open1(extraParams + "&mth="+ method);
+        }
+
+        if (need_open2)
+        {
+            need_open2 = 0;
+            open2(extraParams + "&mth="+ method);
+        }
+    }
+
+    function openBuyDomainsPopunders(method)
+    {
+        if (need_openbd)
+        {
+            need_openbd = 0;
+            openbd(extraParams + "&mth="+ method)
+        }
+    }
+
+    function handleTimeout15000(){
+        openSeeqPopunders("onTimeout15000");
+        openBuyDomainsPopunders("onTimeout15000");
+    }
+
+    function handleOnUnload()
+    {
+        openSeeqPopunders("onUnload");
+        openBuyDomainsPopunders("onUnload");
+    }
+
+    function cancel_pops()
+    {
+	    need_open1 = 0;
+	    need_open2 = 0;
+	    need_openbd = 0;
+    }
+
+        if (getCookie("hasPops") != "true")
+        {
+            setCookie("hasPops", "true");
+
+            setTimeout("handleTimeout15000();", 15000);
+            window.onunload = handleOnUnload;
+        } //hasPops=true
+
+    // -->
+</script>
+
+
+            
+
+<script language="javascript">
+<!--
+    need_open1 = 1;
+
+    function open1(extraParams)
+    {
+	var x = window.open("/greatdate/directory.jsp?domain=greatdate-int.com&pop=false&" + extraParams,"popunder3a","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=490,height=545,left=10,top=10,marginwidth=0,marginheight=0");
+
+	if (x)
+	    x.blur();
+
+	window.focus();
+    }
+// -->
+</script>
+
+
+            
+
+<script language="javascript">
+<!--
+    need_open2 = 1;
+	var intWidth = 490;
+	var intHeight = 545;
+    function open2(extraParams)
+    {
+	// to center pop-under, use xTop & yTop
+	// var xTop = screen.width/2 - (intWidth/2);
+ 	// var yTop = screen.height/2 - (intHeight/2);
+	// to push to bottom right corner
+	var xTop = screen.width - (intWidth + 20);
+ 	var yTop = screen.height - (intHeight + 90);
+	var y = window.open("/travelchoices/directory.jsp?domain=travelchoices-int.com&pop=false&"  + extraParams,"popunder3b","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=" + intWidth + ",height=" + intHeight + ",left=" + xTop + ",top=" + yTop + ",marginwidth=0,marginheight=0");
+
+	if (y)
+	    y.blur();
+
+	window.focus();
+    }
+// -->
+</script>
+
+
+
+<!-- BEGIN COREMETRICS SUPPORT -->
+<script language="javascript1.1"
+ type="text/javascript">
+<!--
+var cmJv="1.1";
+//-->
+</script>
+<script language="javascript1.2"
+ type="text/javascript">
+<!--
+var cmJv="1.2";
+//-->
+</script>
+<script language="javascript1.3"
+ type="text/javascript">
+<!--
+var cmJv="1.3";
+//-->
+</script>
+<script language="javascript1.4"
+ type="text/javascript">
+<!--
+var cmJv="1.4";
+//-->
+</script>
+<script language="javascript1.5"
+ type="text/javascript">
+<!--
+var cmJv="1.5";
+//-->
+</script>
+<script language="javascript1.1"
+ type="text/javascript">
+ <!--
+     var cm_ClientID="90065742";
+ //-->
+ </script>
+<script language="javascript1.1"
+ src="/coremetrics/v40/eluminate.js"
+ type="text/javascript">
+</script>
+<script language="javascript1.1"
+ src="/coremetrics/cmdatatagutils.js"
+ type="text/javascript">
+</script>
+<script language="javascript1.1"
+ src="/coremetrics/v40/techprops.js"
+ type="text/javascript">
+</script>
+
+
+<script language="javascript1.1" type="text/javascript">
+
+<!--
+    function seeqShop9(productId, categoryId, revenue, url, keyword, position)
+    {
+        if (parent.bookmark != null){
+	        parent.bookmark.cancel_pops(); }
+	    else{
+	        cancel_pops();}
+
+
+    cmCreateShopAction9Tag(productId, productId, '1', revenue, 'IAA8I413F7NIOOQJ8NH2IV4GKJOHA7VV', 'IAA8I413F7NIOOQJ8NH2IV4GKJOHA7VV', revenue, categoryId);
+    cmDisplayShop9s();
+    cmCreateOrderTag('IAA8I413F7NIOOQJ8NH2IV4GKJOHA7VV', revenue, '0.00', 'IAA8I413F7NIOOQJ8NH2IV4GKJOHA7VV', null, null, null);
+
+
+
+	    return true;
+
+
+    }
+
+
+        cmSetProduction();
+
+        cmCreatePageviewTag("C_/shoparound/index_d2r.jsp", null, null, null);
+
+        setPermCookie("UID", "2D441DJP0VJV3N79HXW4QDP4357NID89", "/", ".seeq.com", null);
+
+        setCookie("SID", "85ENQOG3E1IDFN3T0A6LQRJCDMJ61VNG", null, "/", ".shoparound.com", null);
+
+
+    // load an image with sid and uid tacked on the end
+    var img_v2 = new Image;
+    img_v2.src = '/images/blank.gif?page=/shoparound/index_d2r.jsp&sid=' + getCookie("SID") + '&uid=' + getCookie("UID");
+
+//-->
+</script>
+<!-- END COREMETRICS -->
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" style="width:800px;">
+<tr>
+	<!-- logo title -->
+	<td id="logoTitle"><img src="/images/logos/logo_shoparound.gif" width="362" height="62" border="0" alt="galleriaroseville.com &#8212; Find What You Need" /></td>
+	<!-- dynamic domain name for sale -->
+	<td id="forSale">
+	
+
+
+
+
+
+	</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" align="center" id="main">
+<tr>
+	<!-- topnav -->
+	<td id="topNav">
+	
+
+
+
+	<table cellspacing="0" cellpadding="0" border="0" style="width:100%">
+	<tr>
+	
+			<td class="topNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Online+Shopping">Online Shopping</a></td>
+	
+			<td class="topNavUnit"></td>
+	
+			<td class="topNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Online+Auctions">Online Auctions</a></td>
+	
+			<td class="topNavUnit"></td>
+	
+			<td class="topNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Discount+Shopping">Discount Shopping</a></td>
+	
+			<td class="topNavUnit"></td>
+	
+			<td class="topNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Shopping">Shopping</a></td>
+	
+			<td class="topNavUnit"></td>
+	
+			<td class="topNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Wholesale+Clubs">Wholesale Clubs</a></td>
+	
+		<td class="topNavUnit"></td>
+		<td class="topNavLink"><a href="article.jsp?domain=galleriaroseville.com&portal_id=125">Shopping Articles</a></td>
+	
+	</tr>
+	</table>
+	</td>
+	<!-- end topnav -->
+</tr>
+<tr>
+	<!-- content -->
+	<td id="content">
+	<table cellspacing="0" cellpadding="0" border="0" style="width:798px">
+	<tr>
+		<!-- left col: links -->
+		<td valign="top" id="leftColD2R"><span class="small">Sponsored listings for <b>online-shopping</b>:</span><br />
+		<img src="/images/blank.gif" width="1" height="12" border="0" alt="" /><br />
+		
+
+
+
+
+
+
+
+
+
+
+<div style="position:relative;left:-15px;">
+<ol start="1">
+<li>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,1);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.paypal.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg15NS2ZXyl%255FruNLbXU7Lehghd1sCqr546VsA5Q4AW7iEyDP8uOrySwNp7SeRj8w3TyfWd4aQfJfvmmPTZSRuNMVKfTe743YzSnoY8N6ypWdBAgLUs0L%255Fkl45NSngHF27CDdO46JrJUcCvMnxO%255Fo8VvkXa8PBvwc2yweUcEbrRzgp1%252DV6iVO5y6aYsg73EW%252D8OT6QMctnJoxbxcZxJzK4HkO2lSiMEciag4HlXp1uCJTN7193MatMEurz3k4eONO6vw40XfRqeq6o%255FsUDD2T3FlsojbyTVn%252DxUkV4aT7X1YCTZiB1opa7JzP%252DJbJU34W3%252DEJKaeCX1Iy0vKQcxROLkPUOdxFYh9d63TNFLKIm7%252DVe8ALaYDyQmfFED542ELo721hVs%255Fw4nBmaOF5jWmR95%26yargs%3Dwww.paypal.com%26" class="bigLink"><b>PayPal: Privacy Is Built In</b></a>
+<br>PayPal lets you shop without sharing your financial information. Get 100% protection against unauthorized payments sent from your account. Sign up now.<br>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,1);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.paypal.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg15NS2ZXyl%255FruNLbXU7Lehghd1sCqr546VsA5Q4AW7iEyDP8uOrySwNp7SeRj8w3TyfWd4aQfJfvmmPTZSRuNMVKfTe743YzSnoY8N6ypWdBAgLUs0L%255Fkl45NSngHF27CDdO46JrJUcCvMnxO%255Fo8VvkXa8PBvwc2yweUcEbrRzgp1%252DV6iVO5y6aYsg73EW%252D8OT6QMctnJoxbxcZxJzK4HkO2lSiMEciag4HlXp1uCJTN7193MatMEurz3k4eONO6vw40XfRqeq6o%255FsUDD2T3FlsojbyTVn%252DxUkV4aT7X1YCTZiB1opa7JzP%252DJbJU34W3%252DEJKaeCX1Iy0vKQcxROLkPUOdxFYh9d63TNFLKIm7%252DVe8ALaYDyQmfFED542ELo721hVs%255Fw4nBmaOF5jWmR95%26yargs%3Dwww.paypal.com%26" class="bodyLink">www.paypal.com</a>
+<br>
+<br>
+</li>
+<li>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,2);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.preferredhomenetwork.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg18JS9JXyl%255FruNLbXU6TFhUBM1sjip4ksWsUhQIgLricpFr89Nb2SxJhnDb0krUqIj7eKreRWZPy%252D2qefEXrNEALLSrvijdiCnNV5Z%255Fj0Gs8fw%252D45xOyT4JNNSH4GYm24fNSrnOifeYKVDk48t9BAlULZ66Vjx8y207QTGLjZ2FV68l3UIY1R4Khaici1LJIPQsZde6rrmySAJpFHy9xj47XnMyERKSqg4GoKrlqGMmhyo6y7Cfp%255FvbP0mP6fG5b6mc8HZkTDxMRx6R6fzgzvyYpiQnmU075blEhfRqr%255FY06siX5bvvLSj%255FvdINR14z39FpiQAS%255F6PhwnJRskQuvIDHqefD9r9EGKcpVYdden%252Dj26AKfBACAxIl5TqprgZ5tXulOLoW5sSQnME9eXrm5EMPQsMC3%252DtKG2xAl016ki%252DoPdLNZduYWCh0HAXC1irkBck5YHa4%252DK9QYXsjwq3sA%252D%26yargs%3Dwww.preferredhomenetwork.com%26" class="bigLink"><b>How to Save Big and Shop Safely Online</b></a>
+<br>Read these tips on how to shop safely from the comfort of your own home. Preferred Home Network helps you save up to 50% on 300,000 brand name items and provides $500 in grocery coupons.<br>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,2);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.preferredhomenetwork.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg18JS9JXyl%255FruNLbXU6TFhUBM1sjip4ksWsUhQIgLricpFr89Nb2SxJhnDb0krUqIj7eKreRWZPy%252D2qefEXrNEALLSrvijdiCnNV5Z%255Fj0Gs8fw%252D45xOyT4JNNSH4GYm24fNSrnOifeYKVDk48t9BAlULZ66Vjx8y207QTGLjZ2FV68l3UIY1R4Khaici1LJIPQsZde6rrmySAJpFHy9xj47XnMyERKSqg4GoKrlqGMmhyo6y7Cfp%255FvbP0mP6fG5b6mc8HZkTDxMRx6R6fzgzvyYpiQnmU075blEhfRqr%255FY06siX5bvvLSj%255FvdINR14z39FpiQAS%255F6PhwnJRskQuvIDHqefD9r9EGKcpVYdden%252Dj26AKfBACAxIl5TqprgZ5tXulOLoW5sSQnME9eXrm5EMPQsMC3%252DtKG2xAl016ki%252DoPdLNZduYWCh0HAXC1irkBck5YHa4%252DK9QYXsjwq3sA%252D%26yargs%3Dwww.preferredhomenetwork.com%26" class="bodyLink">www.preferredhomenetwork.com</a>
+<br>
+<br>
+</li>
+<li>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,3);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.ubid.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg15BSt5Xyl%255FruNLbXU6GcgAoMkYPnrZZxTZ4mRoFL8wZlVOlqbKWdJ%255FROTORu6wbFz%255FTXWJYmAPHym%255F2KFRjaSFWLGfWs0Y3MxY47M6ijXdBR0r4sxOmdlodNPg0DZBiyfdC2iLhoFObdTCYI844Ayxya9PZtwMew078TEriurScO%255F1rRI%252DoDn9UuhNqaJJpZeoIzftmQlFTkcJxBv99jyuCmOjZJJV%255FQkB19212WeD18qKjEdJlUtOeuzsaON%252D6iwoUHNRGDt6w8qF7PlymLlodiNmSGl7pZjloEXezxYCydhVlq4fqA0aOCd58M6jLtJpiMVTHhIE94agaQZb7%252D%255FGXmYWxloguEB5dGdtfW0xKgArOOUxAxKqM093eFDI8L4xuZwztPO1Y%252E%26yargs%3Dwww.ubid.com%26" class="bigLink"><b>uBid® Online Auctions</b></a>
+<br>Bid with trust and confidence in fraud-proof auctions at uBid. Discount prices on over 10,000 brand name items. Get computers, electronics, jewelry, clothing and more at the prices you want.<br>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,3);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.ubid.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg15BSt5Xyl%255FruNLbXU6GcgAoMkYPnrZZxTZ4mRoFL8wZlVOlqbKWdJ%255FROTORu6wbFz%255FTXWJYmAPHym%255F2KFRjaSFWLGfWs0Y3MxY47M6ijXdBR0r4sxOmdlodNPg0DZBiyfdC2iLhoFObdTCYI844Ayxya9PZtwMew078TEriurScO%255F1rRI%252DoDn9UuhNqaJJpZeoIzftmQlFTkcJxBv99jyuCmOjZJJV%255FQkB19212WeD18qKjEdJlUtOeuzsaON%252D6iwoUHNRGDt6w8qF7PlymLlodiNmSGl7pZjloEXezxYCydhVlq4fqA0aOCd58M6jLtJpiMVTHhIE94agaQZb7%252D%255FGXmYWxloguEB5dGdtfW0xKgArOOUxAxKqM093eFDI8L4xuZwztPO1Y%252E%26yargs%3Dwww.ubid.com%26" class="bodyLink">www.ubid.com</a>
+<br>
+<br>
+</li>
+<li>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,4);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.jcpenney.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg1%255FhSz5Xyl%255FruNLbXU7Demw1XiszwppYqEcImQsoPticzFLUucfSehJI8BaQvtF2QzfGco%255Fl%252DcKqlzZPJSlHOBQrXTuP%255F3IrMyo9ubva%252DDYgF0uBo2eroiNJDOn0GdD28fNe5nerEKNbxP2ge84oCvxuQ%255FIIayL2xseUdGb%255FOjvZMy3inedgJ7KQogcTLKJgASbZDJ9SbkVDjBepEzdl34erWSycXPnKv5D88mnaBJDl409zNfI59uqOrl42cf7jwn6grajXhgOI%255F5R2fz3eV39duZCXWwKUHnQFaDo%255FspB7tox1wpa%255FfkvbFINx9ujC5DsHZATH6MwcyKBosA%255Fq3fzqKJyNTtkvFM4MHfM24ucKJHaZGPR9jbwpB%252DtDAOsYB%255FQ%255FMzyRsCW7EdqbB8CIWbPJzeSvX6myG7Rx0j8gHyQ%252E%252E%26yargs%3Dwww.jcpenney.com%26" class="bigLink"><b>JCPenney.com - Official Site</b></a>
+<br>This President’s Day weekend, save 15% by using your JCPenney card.<br>
+<a onclick="return seeqShop9(&quot;galleriaroseville.com : online-shopping&quot;,&quot;ShopAround.com&quot;,&quot;0.47105625&quot;,this.href,&quot;online-shopping&quot;,4);" target="_top" title="online-shopping" href="/click.jsp?page=sresults&tag=nothing&domain=galleriaroseville.com&data=www.jcpenney.com%3Aonline-shopping&url=http%3A%2F%2Fwww61.overture.com%2Fd%2Fsr%2F%3Fxargs%3D15KPjg1%255FhSz5Xyl%255FruNLbXU7Demw1XiszwppYqEcImQsoPticzFLUucfSehJI8BaQvtF2QzfGco%255Fl%252DcKqlzZPJSlHOBQrXTuP%255F3IrMyo9ubva%252DDYgF0uBo2eroiNJDOn0GdD28fNe5nerEKNbxP2ge84oCvxuQ%255FIIayL2xseUdGb%255FOjvZMy3inedgJ7KQogcTLKJgASbZDJ9SbkVDjBepEzdl34erWSycXPnKv5D88mnaBJDl409zNfI59uqOrl42cf7jwn6grajXhgOI%255F5R2fz3eV39duZCXWwKUHnQFaDo%255FspB7tox1wpa%255FfkvbFINx9ujC5DsHZATH6MwcyKBosA%255Fq3fzqKJyNTtkvFM4MHfM24ucKJHaZGPR9jbwpB%252DtDAOsYB%255FQ%255FMzyRsCW7EdqbB8CIWbPJzeSvX6myG7Rx0j8gHyQ%252E%252E%26yargs%3Dwww.jcpenney.com%26" class="bodyLink">www.jcpenney.com</a>
+<br>
+<br>
+</li>
+</ol>
+</div><a class="bodyLink" href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=online-shopping&offset=4&type=s&additionalParams="><b>More Results</b></a><span><font color="#ff0000"><b> &rsaquo;&rsaquo;</b></font></span>
+
+
+        <br /><br />
+		<span class="small"><b>Don't see what you're looking for?</b> Search below for more.</span><br />
+		<img src="/images/blank.gif" width="1" height="12" border="0" alt="" /><br />
+		<!-- search box -->
+		
+
+
+<table cellspacing="0" cellpadding="0" border="0" id="searchBox2">
+
+<tr>
+	<td align="center" width="100%" id="searchText">
+	<table cellspacing="0" cellpadding="0" border="0">
+	<form name="search" action="results.jsp">
+		<input type="hidden" name="portal_id" id="portal_id" value="125" />
+		<input type="hidden" name="domain" id="domain" value="galleriaroseville.com" />
+		<input type="hidden" name="tag" id="tag" value="typedseeq" />
+		<!-- 1.19.06 added for CPA A/B Test -->
+		<input type="hidden" name="test" id="test" value="none" />
+		<input type="hidden" name="cid" id="test" value="none" />
+		<input type="hidden" name="cta" id="test" value="1" />
+	<tr>
+		<td style="vertical-align:middle">Search:</td>
+		<td style="vertical-align:middle" id="searchTextBox"><input type="text" name="keyword" id="keyword" style="width:345px" /></td>
+		<td style="vertical-align:middle"><a href="javascript:document.search.submit()">Go</a></td>
+	</tr>
+	</form>
+	</table>
+	</td>
+
+</tr>
+</table>
+
+		<table cellspacing="0" cellpadding="0" border="0" bgcolor="#efefef" width="536">
+		<tr>
+			<!-- related searches -->
+			<td id="searchLinks"><b>Related Searches:</b><br />
+			<table cellspacing="0" cellpadding="0" border="0" width="510">
+			<tr>
+				<td style="width:33%;vertical-align:top;">
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Diamond+Rings">Diamond Rings</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Jewelry">Jewelry</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Flowers">Flowers</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Plasma+TVs">Plasma TVs</a><br />
+				
+				</td>
+				<td style="width:33%;vertical-align:top;">
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=MP3+Players">MP3 Players</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Gift+Baskets">Gift Baskets</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=iPods">iPods</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=DVD+Players">DVD Players</a><br />
+				
+				</td>
+				<td style="width:33%;vertical-align:top;">
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Camcorders">Camcorders</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Women%27s+Clothing">Women's Clothing</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Men%27s+Clothing">Men's Clothing</a><br />
+				
+				<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Xbox+360">Xbox 360</a><br />
+				
+				</td>
+			</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td id="searchBoxBottom"><img src="/images/blank.gif" width="1" height="12" border="0" alt="" /></td>
+		</tr>
+		</table>
+		<!-- end search box -->
+		<!-- ads -->
+		<div style="padding:20px 0 0 0;">
+		
+		<div align="center"><a href="http://www.dpbolvw.net/click-1694203-10382255?sid=shoparoundd2rfeb13" target="_blank"><img src="/images/d2r/ads/d2r_ad_large_starclub.gif" width="468" height="60" border="0" alt="StarClub Rewards" class="ad" /></a></div>
+		
+		</div>
+		</td>
+		<!-- end left col -->
+		<!-- line -->
+		<td class="lineVert"><img src="/images/blank.gif" width="1" height="1" border="0" alt="" /></td>
+		<!-- right col: components -->
+		<td ailgn="center" valign="top" id="rightColD2R">
+		<div style="text-align:center;padding:0 0 12px 0;">Find What You Need Now:</div>
+		
+		<!-- Gift Ideas -->
+		<div class="comp">
+		<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Gift+Ideas">
+		<span class="rtop"><span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span></span>
+			<div class="compHeader">Gift Ideas</div>
+			<div class="compBox">
+				<div class="compImg"><img src="/images/d2r/comp/d2r_sm_gifts_champagne.jpg" width="57" height="64" border="0" alt="Gift Ideas" class="compImgSrc" onclick="window.location='results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Gift+Ideas'" /></div>
+				<div class="compText">Not sure what to buy? Get ideas here.</div>
+				<div class="compLink"><span style="text-decoration:underline;">Find Info Now</span> <span style="color:#c00;font-weight:bold;">&#187;</span></div>
+			</div>
+		<span class="rbottom"><span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span></span>
+		</a>
+		</div>
+		
+		<!-- Summer Fashions -->
+		<div class="comp">
+		<a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Summer+Fashions">
+		<span class="rtop"><span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span></span>
+			<div class="compHeader">Summer Fashions</div>
+			<div class="compBox">
+				<div class="compImg"><img src="/images/d2r/comp/d2r_sm_summer_fashion.jpg" width="57" height="64" border="0" alt="Summer Fashions" class="compImgSrc" onclick="window.location='results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Summer+Fashions'" /></div>
+				<div class="compText">Summer Fashions are hitting the racks now. Find great outfits now.</div>
+				<div class="compLink"><span style="text-decoration:underline;">Find Info Now</span> <span style="color:#c00;font-weight:bold;">&#187;</span></div>
+			</div>
+		<span class="rbottom"><span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span></span>
+		</a>
+		</div>
+		
+		<div id="contentBox">
+			<div id="contentBoxInside" align="center">
+			<a href="article.jsp?keyword=Online+Shopping&title=Having+a+Successful+Online+Shopping+Experience+Can+Be+a+Breeze&aid=sh_9&portal_id=124&domain=shoparound.com" class="contentHeader">Online Shopping</a><br>
+			<b>Online Shopping Can Be a Breeze</b><br>
+			One of the primary reasons for shopping online is to save yourself both time and money &#8212; no long lines and no annoying store clerks following you throughout the store to snag up a big fat commission.<br />
+			<a href="article.jsp?keyword=Online+Shopping&title=Having+a+Successful+Online+Shopping+Experience+Can+Be+a+Breeze&aid=sh_9&portal_id=124&domain=shoparound.com">More</a> <b style="color:#c00;">&#187;</b>
+			</div>
+		</div>
+		
+		<!-- other domain names for sale -->
+		
+
+
+
+
+
+
+
+
+
+
+
+    <div id="domains" align="center">
+    <a href="http://www.buydomains.com?cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top"><img src="/library/images/buydomains_logo.gif" width="131" height="35" border="0" alt="BuyDomains.com Over 600,000 domains for sale" /></a><br />
+
+    
+    <a href="http://www.buydomains.com/index.jsp?domain=TheShops.com&pop=false&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">TheShops.com</a><br />
+
+    
+    <a href="http://www.buydomains.com/index.jsp?domain=BigShop.com&pop=false&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">BigShop.com</a><br />
+
+    
+    <a href="http://www.buydomains.com/index.jsp?domain=InterStore.com&pop=false&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">InterStore.com</a><br />
+
+    
+    <a href="http://www.buydomains.com/index.jsp?domain=ShopCenter.com&pop=false&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">ShopCenter.com</a><br />
+
+    
+    <a href="http://www.buydomains.com/index.jsp?domain=ClickToShop.com&pop=false&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">ClickToShop.com</a><br />
+
+	<a href="http://www.buydomains.com/jsp/search_advanced.jsp?category_id=13&keyword=&cm_mmc=BuyDomains-_-entry-_-tdfs-_-d2r" target="_top">View More</a><br />
+    </div>
+
+        </td>
+		<!-- end right col -->
+	</tr>
+	</table>
+	</td>
+	<!-- end content -->
+</tr>
+<tr>
+	<!-- bottomnav -->
+	<td id="bottomNav">
+	
+
+
+
+	<table cellspacing="0" cellpadding="0" border="0" style="width:100%">
+	<tr>
+	
+			<td class="bottomNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Online+Shopping">Online Shopping</a></td>
+	
+			<td class="bottomNavUnit"></td>
+	
+			<td class="bottomNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Online+Auctions">Online Auctions</a></td>
+	
+			<td class="bottomNavUnit"></td>
+	
+			<td class="bottomNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Discount+Shopping">Discount Shopping</a></td>
+	
+			<td class="bottomNavUnit"></td>
+	
+			<td class="bottomNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Shopping">Shopping</a></td>
+	
+			<td class="bottomNavUnit"></td>
+	
+			<td class="bottomNavLink"><a href="results.jsp?portal_id=125&domain=galleriaroseville.com&keyword=Online+Coupons">Online Coupons</a></td>
+	
+		<td class="bottomNavUnit"></td>
+		<td class="bottomNavLink"><a href="article.jsp?domain=galleriaroseville.com&portal_id=125">Shopping Articles</a></td>
+	
+	</tr>
+	</table>
+	</td>
+	<!-- end bottomnav -->
+</tr>
+</table>
+<!-- search categories -->
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" id="portals">
+<tr>
+	<td align="left" style="line-height:16px;"><b>Other Categories:</b>&nbsp;
+	
+		<a href="/purebusiness/results.jsp?keyword=Advertising&tag=directory">Advertising</a>
+	
+		|
+	
+		<a href="/automotivecenter/results.jsp?keyword=Automotive&tag=directory">Automotive</a>
+	
+		|
+	
+		<a href="/travelchoices/results.jsp?keyword=Aviation&tag=directory">Aviation</a>
+	
+		|
+	
+		<a href="/sportsunlimited/results.jsp?keyword=Boating&tag=directory">Boating</a>
+	
+		|
+	
+		<a href="/cash4you/results.jsp?keyword=Cash&tag=directory">Cash</a>
+	
+		|
+	
+		<a href="/homeanswers/results.jsp?keyword=Crafts&tag=directory">Crafts</a>
+	
+		|
+	
+		<a href="/creditcardclub/results.jsp?keyword=Credit+Cards&tag=directory">Credit Cards</a>
+	
+		|
+	
+		<a href="/greatdate/results.jsp?keyword=Dating&tag=directory">Dating</a>
+	
+		|
+	
+		<a href="/educationcentral/results.jsp?keyword=Education&tag=directory">Education</a>
+	
+		|
+	
+		<a href="/techshopping/results.jsp?keyword=Electronics&tag=directory">Electronics</a>
+	
+		|
+	
+		<a href="/careerguide/results.jsp?keyword=Employment&tag=directory">Employment</a>
+	
+		|
+	
+		<a href="/moviecity/results.jsp?keyword=Entertainment&tag=directory">Entertainment</a>
+	
+		|
+	
+		<a href="/sportsunlimited/results.jsp?keyword=Fantasy+Sports&tag=directory">Fantasy Sports</a>
+	
+		|
+	
+		<a href="/fashionsource/results.jsp?keyword=Fashion&tag=directory">Fashion</a>
+	
+		|
+	
+		<a href="/rightloan/results.jsp?keyword=Finance&tag=directory">Finance</a>
+	
+		|
+	
+		<a href="/wellnessprograms/results.jsp?keyword=Fitness&tag=directory">Fitness</a>
+	
+		|
+	
+		<a href="/foodplanet/results.jsp?keyword=Food&tag=directory">Food</a>
+	
+		|
+	
+		<a href="/homeanswers/results.jsp?keyword=Furniture&tag=directory">Furniture</a>
+	
+		|
+	
+		<a href="/gamingsource/results.jsp?keyword=Games&tag=directory">Games</a>
+	
+		|
+	
+		<a href="/homeanswers/results.jsp?keyword=Gardening&tag=directory">Gardening</a>
+	
+		|
+	
+		<a href="/shoparound/results.jsp?keyword=Gifts&tag=directory">Gifts</a>
+	
+		|
+	
+		<a href="/medicalsource/results.jsp?keyword=Health&tag=directory">Health</a>
+	
+		|
+	
+		<a href="/educationcentral/results.jsp?keyword=History&tag=directory">History</a>
+	
+		|
+	
+		<a href="/gamingsource/results.jsp?keyword=Hobbies&tag=directory">Hobbies</a>
+	
+		|
+	
+		<a href="/homeanswers/results.jsp?keyword=Home+Improvement&tag=directory">Home Improvement</a>
+	
+		|
+	
+		<a href="/shop4jewelry/results.jsp?keyword=Jewelry&tag=directory">Jewelry</a>
+	
+		|
+	
+		<a href="/rightloan/results.jsp?keyword=Loans&tag=directory">Loans</a>
+	
+		|
+	
+		<a href="/mortgageapprovals/results.jsp?keyword=Mortgages&tag=directory">Mortgages</a>
+	
+		|
+	
+		<a href="/moviecity/results.jsp?keyword=Movies&tag=directory">Movies</a>
+	
+		|
+	
+		<a href="/musicmania/results.jsp?keyword=Music&tag=directory">Music</a>
+	
+		|
+	
+		<a href="/shoparound/results.jsp?keyword=Online+Shopping&tag=directory">Online Shopping</a>
+	
+		|
+	
+		<a href="/petparty/results.jsp?keyword=Pets&tag=directory">Pets</a>
+	
+		|
+	
+		<a href="/localrealestate/results.jsp?keyword=Real+Estate&tag=directory">Real Estate</a>
+	
+		|
+	
+		<a href="/educationcentral/results.jsp?keyword=Science&tag=directory">Science</a>
+	
+		|
+	
+		<a href="/shoparound/results.jsp?keyword=Shopping&tag=directory">Shopping</a>
+	
+		|
+	
+		<a href="/purebusiness/results.jsp?keyword=Small+Business&tag=directory">Small Business</a>
+	
+		|
+	
+		<a href="/sportsunlimited/results.jsp?keyword=Sports&tag=directory">Sports</a>
+	
+		|
+	
+		<a href="/e-taxes/results.jsp?keyword=Taxes&tag=directory">Taxes</a>
+	
+		|
+	
+		<a href="/techbuyer/results.jsp?keyword=Technology&tag=directory">Technology</a>
+	
+		|
+	
+		<a href="/travelchoices/results.jsp?keyword=Travel&tag=directory">Travel</a>
+	
+		|
+	
+		<a href="/wellnessprograms/results.jsp?keyword=Wellness&tag=directory">Wellness</a>
+	
+	 </td>
+</tr>
+</table>
+
+<!-- footer -->
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" id="footer">
+<tr>
+    <!-- footer -->
+	<td align="center">&reg; 2006 YesDirect, Inc.&nbsp;&nbsp;<a href="/about.jsp?portal_id=1&amp;domain=seeq.com" class="footerLink">About</a>&nbsp;|&nbsp;<a href="/seeq/index.jsp?portal_id=1&amp;domain=seeq.com" class="footerLink">Home</a>&nbsp;|&nbsp;<a href="/privacy.jsp" class="footerLink">Privacy Policy</a>&nbsp;|&nbsp;<a href="http://www.buydomains.com/info/terms_of_use.jsp" class="footerLink">Terms of Use</a><script>addFooterLinks()</script>
+	
+	<br /><br />
+	<a href="http://www.grassroots.org" target="_blank"><img src="/library/images/grassroots_logo.gif" width="154" height="48" border="0" alt="Grassroots.org" /></a></td>
+</tr>
+</table>
+</body>
+</html>
