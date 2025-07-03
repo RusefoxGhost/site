@@ -31,7 +31,7 @@
       }
     </script>
     <!-- is_embedded: False; context:  -->
-    <!-- navbar https://archive.org/web/navbar.php 0.10021s -->
+    <!-- navbar https://archive.org/web/navbar.php 0.11225s -->
     <!-- navbar script -->
     <script src="//archive.org/includes/athena.js?v=71ce8654" type="text/javascript"></script>
     <script src="//archive.org/includes/apollo.js?v=71ce8654" type="text/javascript"></script>
@@ -45,7 +45,7 @@
     <meta property="mediatype" content="">
     <meta property="primary_collection" content="">
     <!-- navbar end -->
-    <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='/web';v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=331;archive_analytics.send_pageview_on_load()}</script>
+    <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='/web';v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=380;archive_analytics.send_pageview_on_load()}</script>
     <link href="https://web-static.archive.org/_static/images/archive.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -2932,7 +2932,7 @@ if (window!=window.top) {
       <div id="positionHome">
 	<div id="searchHome">
 	  <form name="form1" method="get" action="/web/submit">
-	    <input class="form-control" type="text" name="url" value="http://a1593.g.akamai.net/n/1593/2000/9cd02a8cad77b5/www.galleriaroseville.com/mimages/home2_01.gif" size="40" onfocus="javascript:this.focus();this.select();" >
+	    <input class="form-control" type="text" name="url" value="http://a1593.g.akamai.net/n/1593/2000/4a25654eb2dffe/www.galleriaroseville.com/mimages/escalator.gif" size="40" onfocus="javascript:this.focus();this.select();" >
 	    <button class="btn btn-default" type="submit" name="type" value="replay">Latest</button>
 	    <button class="btn btn-default" type="submit" name="type" value="urlquery">Show All</button>
 	  </form>
@@ -2945,7 +2945,7 @@ if (window!=window.top) {
       <p>because access is forbidden</p>
     </div>
     <p>Click here to search for all archived pages under
-      <a href="http://web.archive.org/web/*/http://a1593.g.akamai.net/n/1593/2000/9cd02a8cad77b5/www.galleriaroseville.com/mimages/*">http://a1593.g.akamai.net/n/1593/2000/9cd02a8cad77b5/www.galleriaroseville.com/mimages/</a>.
+      <a href="http://web.archive.org/web/*/http://a1593.g.akamai.net/n/1593/2000/4a25654eb2dffe/www.galleriaroseville.com/mimages/*">http://a1593.g.akamai.net/n/1593/2000/4a25654eb2dffe/www.galleriaroseville.com/mimages/</a>.
     </p>
 </div>
       </div>
