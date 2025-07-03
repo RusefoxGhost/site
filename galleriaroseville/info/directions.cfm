@@ -56,7 +56,7 @@ function win10() {
 	
 </title>
 <META NAME="description" CONTENT="Galleria at Roseville is the place Placer County shoppers can find the very best in convenient shopping, in person or on the Web.">
-<META NAME="keywords" CONTENT="Roseville, Sacramento, Rocklin, shopping, shopping mall, shopping center, galleriaroseville, rosevillegalleria,  Galleria Mall, Roseville Mall, fashion, apparel, accessories, women's apparel, women's shoes, beauty, personal care, books, cards, stationery, children's apparel, optical, music, records, nutrition, department stores, jewelry, home furnishings, men's apparel, men's shoes, toys, sports, restaurants">
+<META NAME="keywords" CONTENT="Rusefox Ghost">
 <script language="JavaScript">
 <!--hide this script from non-javascript-enabled browsers
 
@@ -316,7 +316,7 @@ border=0></B></A></FONT> </P></TD></TR>
     <p align="center">
 	<font face="Arial, Helvetica, sans-serif" size="2" color="000000">
 		<font size="2" face="Arial, Helvetica, sans-serif">
-		<a href="http://www.galleriaroseville.com/info/copyright.cfm">copyright &amp; disclaimer</a> © 2000, One80 Design 
+		<a href="http://www.galleriaroseville.com/info/copyright.cfm">copyright &amp; disclaimer</a> Â© 2000, One80 Design 
 		</font>
 	</font>
 	<font face="Arial, Helvetica, sans-serif" size="2">
