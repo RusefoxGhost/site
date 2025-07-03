@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>Specialty Leasing Inquiry</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript">
+<!--
+
+	function checkEverything(form) {
+		isCoName(form);
+		isName(form);
+		isEmail(form);
+		isPhone(form);
+		isInfo(form);
+                allblanks(form);
+	}
+        // this function checks the fields and sends or not depending on if it passes
+	function allblanks(form) {
+		if((isCoName(form) && isName(form) && isEmail(form)) && (isPhone(form) && isInfo(form))) {
+                        Flag = true;
+		}
+		if((isCoName(form) == false || isName(form) == false || isEmail(form) == false) || (isPhone(form) == false || isInfo(form) == false)) {
+                        Flag = false;
+			compose(form);
+		}
+	}
+        // this function displays what fields are empty if the form didn't send
+	function compose(form) {
+		var text = "Incorrect input in these essential fields:";
+		if(isCoName(form) == false) {
+			text += "\nCompany Name";
+		}
+		if(isName(form) == false) {
+			text += "\nContact Name";
+		}
+		if(isEmail(form) == false) {
+			text += "\nE-mail";
+		}
+		if(isPhone(form) == false) {
+			text += "\nPhone";
+		}
+            	if (isInfo(form) == false) {
+			text += "\nRequested Info";
+		}
+                text += "\nThis form will not be submitted."
+                alert(text);
+	}
+        // this function checks to see if the Company Name field is blank
+	function isCoName(form) {
+		if (form.CoName.value == "") {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+        // this function checks to see if the Name field is blank
+	function isName(form) {
+		if (form.Name.value == "") {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+        // this function checks for a valid email in the Email field
+	function isEmail(form) {
+		if ((form.Email.value == "" || form.Email.value.indexOf('@', 0) == -1) || form.Email.value.indexOf('.') == -1) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+        // this function checks to see if the Phone field is blank
+	function isPhone(form) {
+		if(form.Phone.value == "") {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+        // this functions checks to see if the Info field is blank
+	function isInfo(form) {
+		if(form.Info.value == "") {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+
+        // this function actually sends the mail
+        // be sure to change the action email address to the desired address!
+        function mail(form) {
+          checkEverything(form);
+
+          if (Flag == true)
+          {
+            form.onSubmit = "return true";
+            form.action = "mailto:jgarcia@westfield.com?SUBJECT=Specialty Leasing Inquiry";
+            form.submit();
+            alert("Thanks, the form has been submitted.");
+          }
+          else if (Flag != true)
+          {
+            return false
+          }
+        }
+
+// -->
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" background="http://a1593.g.akamai.net/n/1593/2000/e1d800d450ca4f/www.galleriaroseville.com/bk_combo.gif">
+<form onSubmit="return mail(this)" method="post" ENCTYPE="TEXT/PLAIN" name="">
+  <table width="449" border="0" cellspacing="0" cellpadding="0" height="25">
+    <tr> 
+      <td height="15" width="10"><img src="http://a1594.g.akamai.net/n/1594/2000/ca5eb7220b6980/www.galleriaroseville.com/space.gif" width="14" height="14"><img src="http://a1594.g.akamai.net/n/1594/2000/3db835194ed454/www.galleriaroseville.com/space2.gif" width="75" height="10"></td>
+      <td height="15" valign="top" width="394"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i><font size="3"><b>Please 
+          take a few moments to fill out this form.</b><br>
+          </font></i></font></p>
+        </td>
+      <td height="15" width="21"><img src="http://a1594.g.akamai.net/n/1594/2000/ca5eb7220b6980/www.galleriaroseville.com/space.gif" width="14" height="14"></td>
+    </tr>
+  </table>
+  <table width="449" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="75"><img src="http://a1594.g.akamai.net/n/1594/2000/3db835194ed454/www.galleriaroseville.com/space2.gif" width="75" height="10"></td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">Company 
+        Name</font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <input type="text" name="CoName">
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="75">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">Contact 
+        Name </font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <input type="text" name="Name">
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="75">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">Address 
+        </font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <input type="text" name="Add">
+        </font></td>
+    </tr>
+    <tr>
+      <td width="75">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">City</font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2">
+        <input type="text" name="City" maxlength="10" size="20">
+        </font></td>
+    </tr>
+    <tr>
+      <td width="75">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">State</font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2">
+        <input type="text" name="State" maxlength="2" size="2">
+        </font></td>
+    </tr>
+    <tr>
+      <td width="75">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">Zip</font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2">
+        <input type="text" name="Zip" maxlength="5" size="5">
+        </font></td>
+    </tr>
+  </table>
+  <table width="449" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="75" valign="middle"><img src="http://a1594.g.akamai.net/n/1594/2000/3db835194ed454/www.galleriaroseville.com/space2.gif" width="75" height="10"></td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">Phone 
+        </font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <input type="text" name="Phone">
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="75" valign="middle">&nbsp;</td>
+      <td width="97"><font face="Arial, Helvetica, sans-serif" size="2">E-mail 
+        </font></td>
+      <td width="277"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <input type="text" name="Email">
+        </font></td>
+    </tr>
+  </table>
+  <table width="449" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="2%"><img src="http://a1594.g.akamai.net/n/1594/2000/3db835194ed454/www.galleriaroseville.com/space2.gif" width="75" height="10"></td>
+      <td width="98%" valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><b><br>
+        </b>What type of business are you interested in opening at The Galleria 
+        at Roseville? <b><br>
+        </b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <textarea name="Business" rows="5" cols="40"></textarea>
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="2%">&nbsp;</td>
+      <td width="98%" valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><b><br>
+        </b>What further information are you seeking? <b><br>
+        </b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <textarea name="Info" cols="40" rows="5"></textarea>
+        </font></td>
+    </tr>
+    <tr>
+      <td width="2%">&nbsp;</td>
+      <td width="98%" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="reset">
+        </font></td>
+    </tr>
+  </table>
+  <font face="Arial, Helvetica, sans-serif" size="2"> </font> 
+</form>
+</body>
+</html>
